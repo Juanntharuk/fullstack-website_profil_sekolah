@@ -1,0 +1,23 @@
+# Folder yang TIDAK DIUPLOAD
+file/
+system/
+wa_gateway/
+web_alok/
+
+# File yang TIDAK DIUPLOAD
+.editorconfig
+.htaccess
+composer.json
+index.php
+license.txt
+readme.rst
+readme.txt
+web_alok1.sql
+
+# Optional: macOS system files
+.DS_Store
+
+# Optional: backup or temp files
+*.bak
+*.tmp
+
