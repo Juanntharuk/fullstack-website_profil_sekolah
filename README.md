@@ -82,3 +82,30 @@ Informatics Student | Fullstack Web Developer (Intern)
 📜 License
 
 This project is developed for educational and internship purposes. Redistribution is restricted unless permitted.
+
+
+
+
+## Branch Workflow
+
+This repository uses the following branch workflow:
+
+- **main**  
+  The main branch. Always stable and ready for deployment. All tested features are merged into `main`.
+
+- **development**  
+  The development branch. All new features or fixes are developed here before being merged into `main`.  
+  Developers should create **feature branches** from `development` for specific features.
+
+- **Feature Branches (optional)**  
+  For example, `feature-login`, `feature-navbar`, etc.  
+  Used to develop specific features, then create Pull Requests to merge back into `development`.
+
+### Short Workflow
+
+1. Checkout the `development` branch to start working:
+   ```bash
+   git checkout development
+
+
+
